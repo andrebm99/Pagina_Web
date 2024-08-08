@@ -13,7 +13,7 @@ def header(details=True) -> rx.Component:
                 rx.box(
                     rx.avatar(
                         fallback="AB",
-                        size= "8",
+                        size= "7",
                         src="/avatar.jpg",
                         radius="full",
                         padding="2px",
@@ -28,7 +28,7 @@ def header(details=True) -> rx.Component:
                     rx.heading(
                         "André Bayona",
                         spacing=Size.BIG.value,
-                        color = TextColor.BODY.value
+                        color = TextColor.BODY.value,
                     ),
                     rx.text(
                         "@andre_bayona_99",
@@ -51,7 +51,7 @@ def header(details=True) -> rx.Component:
                             const.SPOTIFY_URL,
                             "Spotify"
                         ),
-                        spacing=Size.BIG.value,
+                        spacing=Size.LARGE.value,
                         padding_top=Size.SMALL.value
                     ),
                     spacing=spacing.ZERO.value,
@@ -75,9 +75,9 @@ def header(details=True) -> rx.Component:
                 rx.text(
                     
                     f"""
-                    "Soy un estudiante de 4to ciclo en Ingeniería de Software, responsabe y con habilidades destacadas para trabajar en equipo. Tengo conocimientos en Python, Java, SQL, Progración web y estoy aprendiendo ciberseguridad en Cisco. Mi objetivo es crecer en el desarrollo de software y contribuir significativamente en los proyectos."
+                    Soy un estudiante de 4to ciclo en Ingeniería de Software, responsabe y con habilidades destacadas para trabajar en equipo. Tengo conocimientos en Python, Java, SQL, Progración web y estoy aprendiendo ciberseguridad en Cisco. Mi objetivo es crecer en el desarrollo de software y contribuir significativamente en los proyectos."
                     """,
-                    font_size = Size.MEDIUM.value,
+                    font_size = Size.DEFAULT.value,
                     color = TextColor.BODY.value
                 ),
                 width ="100%",

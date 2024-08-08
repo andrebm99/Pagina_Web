@@ -17,7 +17,7 @@ def footer() -> rx.Component :
             alt="Logotipo de GhostH4ck",
         ),
         rx.link(
-            f"© {datetime.date.today().year} ANDRE BAYONA. Todos los derechos reservados.",
+            f"© {datetime.date.today().year} ANDRE BAYONA v1.",
             href= const.GITHUB_URL,
             is_external=True,
             font_size = Size.MEDIUM.value,
@@ -31,10 +31,10 @@ def footer() -> rx.Component :
                     src="/icons/github.svg",
                     height = Size.LARGE.value,
                     weight = Size.LARGE.value,
-                    alt="Logo GitHub"
+                    alt="Logo GitHub",
                 ),
                 rx.text(
-                    "Ingeniería de Software😎",
+                    "PRACTICANDO DESARROLLO DE SOFTWARE 🧑🏽‍💻 LIMA - PERÚ ❤️🇵🇪",
                     font_size = Size.MEDIUM.value,
                     margin_top=Size.ZERO.value
                 )
@@ -53,7 +53,7 @@ def footer() -> rx.Component :
         padding_bottom=Size.VERY_BIG.value,
         padding_x=Size.BIG.value,
         spacing=spacing.ZERO.value,
-        color = TextColor.FOOTER.value,
+        color=TextColor.FOOTER.value
 
     )
         

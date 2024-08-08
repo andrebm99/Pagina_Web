@@ -65,7 +65,7 @@ def header(details=True) -> rx.Component:
             rx.vstack(
                 rx.flex(
                     rx.text(
-                        "Programación web | Java - Python | Ciberseguridad"
+                        "Programación web | Java - Python - SQL| Ciberseguridad | Heavy Metal | Rock"
                     ),
                     width = "100%",
                     color = "#ff85a1",

@@ -17,7 +17,7 @@ _meta=[
 
 # Index
 
-index_title = "GhostH4ck | Practicando programación web"
+index_title = "ARCode | Practicando programación web"
 index_description = "Hola mi nombre es André Bayona, estoy creando mi web para practicar programación web y subir mis proyectos."
 
 index_meta = [
@@ -29,7 +29,7 @@ index_meta.extend(_meta)
 
 # Proyects
 
-proyects_title = "André | Proyectos de programación"
+proyects_title = "ARCode | Proyectos de programación"
 proyects_description = "Mi web donde publico mis proyectos de Programación web, C++, Python, Java..."
 
 proyects_meta = [

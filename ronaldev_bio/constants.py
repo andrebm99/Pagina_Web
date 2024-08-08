@@ -17,7 +17,7 @@ HACKTHEBOX_URL = "https://app.hackthebox.com/home"
 
 # Contactp
 
-EMAIL = "andrehacker99@outlook.com"
+EMAIL = "ronaldobayona65@hotmail.com"
 
 # Repositorio
 

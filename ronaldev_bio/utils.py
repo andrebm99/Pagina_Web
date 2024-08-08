@@ -6,7 +6,7 @@ import reflex as rx
 def lang() -> rx.Component:
     return rx.script("document.documentElement.lang='es'"),
 
-preview = "https://ghosth4ck.vercel.app.preview.png/"
+preview = "/preview.jpg"
 
 _meta=[
         {"name": "og:type", "content": "website"},

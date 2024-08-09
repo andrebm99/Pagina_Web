@@ -14,10 +14,10 @@ def footer() -> rx.Component :
             src="/logo.png",
             height = Size.LOGO.value,
             weight = Size.LOGO.value,
-            alt="Logotipo de ARCode",
+            alt="Logotipo de ",
         ),
         rx.link(
-            f"© {datetime.date.today().year} ARCode by ANDRE BAYONA v1.",
+            f"© {datetime.date.today().year} GhostH4ck by ANDRE BAYONA v1.",
             href= const.GITHUB_URL,
             is_external=True,
             font_size = Size.MEDIUM.value,

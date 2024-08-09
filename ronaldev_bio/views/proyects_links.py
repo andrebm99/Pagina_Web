@@ -9,32 +9,37 @@ def proyects_links() -> rx.Component:
         title("Proyectos"),
         
         link_button(
+            "Java",
+            "Repositorio de proyectos con Java",
+            "/icons/java.svg",
+            const.JAVA_URL
+        ),
+
+        link_button(
+            "Python",
+            "Repositorio de proyectos con Python",
+            "/icons/python.svg",
+            const.PYTHON_URL
+        ),
+        
+        link_button(
             "JavaScript",
-            "Programando en javaScript",
+            "Repositorio de proyectos con JavaScript",
             "/icons/js.svg",
             const.GITHUB_URL
         ),
+        
         link_button(
             "HTML - CSS",
-            "Practicando Programación-Web",
+            "Repositorio de proyectos Programación-Web",
             "/icons/html5.svg",
-            const.GITHUB_URL
+            const.PROGRAMACIONWEB_URL
         ),
-        link_button(
-            "Python",
-            "Proyectos Python",
-            "/icons/python.svg",
-            const.GITHUB_URL
-        ),
-        link_button(
-            "Java",
-            "Proyectos Java",
-            "/icons/java.svg",
-            const.GITHUB_URL
-        ),
+        
+        
         link_button(
             "Hack The Box",
-            "Mis maquinas resueltas en HTB.",
+            "Hacking y Ciberseguridad",
             "/icons/htb.svg",
             const.HACKTHEBOX_URL
         ),

@@ -13,7 +13,10 @@ SPOTIFY_URL = "https://open.spotify.com/user/fx7y5ipjtv7lssijrg08zbqfu?si=13e8e1
 # Proyectos
 
 GITHUB_URL = "https://github.com/andrebm99/"
+PYTHON_URL = "https://github.com/andrebm99/Python"
+JAVA_URL = "https://github.com/andrebm99/Java-Proyects"
 HACKTHEBOX_URL = "https://app.hackthebox.com/home"
+PROGRAMACIONWEB_URL = "https://github.com/andrebm99/Html-Css"
 
 # Contactp
 

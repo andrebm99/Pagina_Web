@@ -28,12 +28,12 @@ def header(details=True) -> rx.Component:
                     rx.heading(
                         "André Bayona",
                         spacing=Size.BIG.value,
-                        color = TextColor.BODY.value,
+                        color = TextColor.USER.value,
                     ),
                     rx.text(
                         "@andre_bayona_99",
                         margin_top=Size.ZERO.value,
-                        color = TextColor.USER.value
+                        color = TextColor.USUARIO_IG.value
                     ),
                     rx.hstack(
                         link_icon(
@@ -65,7 +65,13 @@ def header(details=True) -> rx.Component:
             rx.vstack(
                 rx.flex(
                     rx.text(
-                        "Programación web | Java - Python - SQL| Ciberseguridad | Heavy Metal | Rock"
+                        "Programación web"
+                    ),
+                    rx.text(
+                        "Java - Python - SQL"
+                    ),
+                    rx.text(
+                        "Ciberseguridad"
                     ),
                     width = "100%",
                     color = "#ff85a1",
@@ -75,7 +81,7 @@ def header(details=True) -> rx.Component:
                 rx.text(
                     
                     f"""
-                    Soy un estudiante de 4to ciclo en Ingeniería de Software, responsabe y con habilidades destacadas para trabajar en equipo. Tengo conocimientos en Python, Java, SQL, Progración web y estoy aprendiendo ciberseguridad en Cisco. Mi objetivo es crecer en el desarrollo de software y contribuir significativamente en los proyectos."
+                    Soy un estudiante de 4to ciclo en Ingeniería de Software, responsabe y con habilidades destacadas para trabajar en equipo. Tengo conocimientos en Python, Java, SQL, Progración web y estoy aprendiendo ciberseguridad en Cisco. Mi objetivo es crecer en el desarrollo de software y contribuir significativamente en los proyectos.
                     """,
                     font_size = Size.DEFAULT.value,
                     color = TextColor.BODY.value
@@ -87,5 +93,5 @@ def header(details=True) -> rx.Component:
         ),
         width="100%",
         spacing=spacing.BIG.value,
-        align_items="start",
+        align_items="start"
     )

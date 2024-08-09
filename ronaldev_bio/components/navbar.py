@@ -9,11 +9,11 @@ def navbar() -> rx.Component:
     return rx.hstack(
         rx.link(
             rx.box( 
-                rx.text("ARC", as_="span", color=Color.LOGO1.value),
-                rx.text("ode", as_="span", color=Color.LOGO2.value),
+                rx.text("Ghost", as_="span", color=Color.LOGO1.value),
+                rx.text("H4ck", as_="span", color=Color.LOGO2.value),
                 style = styles.navbar_title_style
             ),
-            href=Route.INDEX.value,
+            href=Route.INDEX.value
         ),
 
         position = "sticky",

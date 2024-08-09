@@ -6,14 +6,14 @@ import reflex as rx
 def lang() -> rx.Component:
     return rx.script("document.documentElement.lang='es'"),
 
-preview = "/preview.png"
+preview = "https://ghosth4ck.vercel.app/preview.png"
 
 _meta=[
         {"name": "og:type", "content": "website"},
         {"name": "og:image", "content": preview},
         {"name": "twitter:card", "content": "summary_large_image"},
         {"name": "twitter:site", "content": "@GhostH4ck"},
-    ]
+]
 
 # Index
 
